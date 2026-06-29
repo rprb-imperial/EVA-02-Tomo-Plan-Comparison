@@ -1,10 +1,10 @@
-# XXX-XX - Project Title
+# EVA-02 - Tomo Plan Comparison
 
-Project description
+Script to extract certain parameters from tomo plans into csv
 
-Original Author: XX
+Original Author: IP
 
-Interpreter: XXX
+Interpreter: ICH_Iron_Python_Adv
 
 Version: 0.0
 
