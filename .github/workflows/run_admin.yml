@@ -1,0 +1,14 @@
+on:
+  push:
+      branches:
+      - main
+      paths:
+      - '**.py'
+      - '!**update_readme.py'
+      - '!**update_scriptlist.py'
+      - '!**script_template.py'
+
+jobs:
+  update_docs:
+    name: Admin
+    uses: rprb-imperial/Documentation/.github/workflows/admin.yml@main
